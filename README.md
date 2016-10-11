@@ -1,2 +1,2 @@
 # redundantMemcached
-Class to use Memcached distributed across 2 servers
+Connection manager for 2 distributed Memcached servers
