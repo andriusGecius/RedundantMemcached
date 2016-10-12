@@ -3,6 +3,7 @@
     "description": "Connection manager for 2 redundant memcached servers",
     "type": "library",
     "require": {
+        "ext-memcached": ">=0.1.0",
         "php": ">=5.2.0"
     },
     "autoload": {
