@@ -1,0 +1,21 @@
+{
+    "name": "andriusgecius/redundant-memcached",
+    "description": "Connection manager for 2 redundant memcached servers",
+    "type": "library",
+    "require": {
+        "ext-memcached": ">=1.0",
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+		"files": ["Cache.php"]
+	},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrius Gecius",
+            "email": "andrius.gecius@gmail.com"
+        }
+    ],
+    "minimum-stability" : "dev",
+	"prefer-stable" : true
+}
